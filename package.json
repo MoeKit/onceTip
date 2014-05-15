@@ -1,0 +1,26 @@
+{
+  "family": "moe",
+  "name": "onceTip",
+  "version": "0.0.1",
+  "description": "The best project ever.",
+  "homepage": "https://github.com/lizheng/onceTip",
+  "author": "airyland",
+  "maintainers": [
+    "airyland"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/lizheng/onceTip.git"
+  },
+  "bugs": {
+    "url": ""
+  },
+  "keywords": [],
+  "licenses": "MIT",
+  "spm": {
+    "output": ["onceTip.js"],
+    "alias": {},
+    "devAlias": {},
+    "engines": {}
+  }
+}
