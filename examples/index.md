@@ -25,7 +25,7 @@ div[data-action="show-once"] a.show-once-close {
 }
 </style>
 <div data-action="show-once" data-label="name" data-trigger="a.show-once-close">
-  <a href="hello">我是论坛只显示一次的提示呀</a>
+  <a href="hello">本论坛禁止发布广告、QQ群、人身攻击，以及其他违法违规内容</a>
   <a class="show-once-close" href="javascript:">×</a>
 </div>
 
