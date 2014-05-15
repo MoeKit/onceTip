@@ -43,7 +43,8 @@ define("moe/onceTip/0.0.1/onceTip-debug", [ "moe/cookieStore/0.0.8/cookieStore-d
             var cookieName = $item.data("label");
             // initialize cookieStore
             var cookieStore = new cookieStorage("fe_" + scope + "_", {
-                domain: cookieScope
+                domain: cookieScope,
+                expires: 365
             });
             if (cookieStore.get(cookieName) === "1") {
                 $item.hide();

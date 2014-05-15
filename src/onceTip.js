@@ -47,7 +47,8 @@ define(function (require, exports, module) {
 
             // initialize cookieStore
             var cookieStore = new cookieStorage('fe_' + scope + '_', {
-                domain: cookieScope
+                domain: cookieScope,
+                expires: 365
             });
 
             if (cookieStore.get(cookieName) === '1') {
